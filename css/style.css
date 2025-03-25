@@ -15,6 +15,48 @@
 }
 /*** Spinner End ***/
 
+
+/*** whatapp***/
+/* .whatsapp-icon {
+    position: fixed;
+    bottom: 100px;
+    right: 30px;
+    background-color: #1FB2AC;
+    color: white;
+    padding: 10px;
+    /* border-radius: 50%; */
+    /* font-size: 24px;
+    box-shadow: 2px 2px 10px rgba(255, 255, 255, 0.3);
+}
+.whatsapp-icon:hover {
+    background-color: #1FB2AC;
+}  */
+
+.back-to-top1:hover{
+    background-color: #1FB2AC;
+    border-color: #1FB2AC;
+    /* color: #1FB2AC; */
+
+}
+
+.back-to-top1 {
+    background-color: #1FB2AC;
+    border-radius: 50%;
+    /* color: white; */
+    font-size: 20px;
+    padding: 20px;
+    position: fixed;
+    right: 30px;
+    bottom: 100px;
+    display: flex;
+    width: 45px;
+    height: 45px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+    z-index: 99;
+}
+
 .back-to-top {
     position: fixed;
     right: 30px;
@@ -66,8 +108,15 @@
     border-radius: 50%;
 }
 
+.btn.btn-primary1 {
+    background: #1FB2AC ;
+    color: var(--bs-white) !important;
+    font-weight: 400;
+    transition: 0.5s;
+}
+
 .btn.btn-primary {
-    background: var(--bs-primary) !important;
+    background: #1FB2AC ;
     color: var(--bs-white) !important;
     font-weight: 400;
     transition: 0.5s;
@@ -75,12 +124,16 @@
 
 .btn.btn-primary:hover {
     background: var(--bs-white) !important;
-    color: var(--bs-primary) !important;
+    color: #1FB2AC !important;
 }
 
+.btn.btn-primary1:hover {
+    background: var(--bs-white) !important;
+    color: #1FB2AC !important;
+}
 .btn.btn-light {
     background: var(--bs-light) !important;
-    color: var(--bs-primary) !important;
+    color: #1FB2AC !important;
     font-weight: 400;
     transition: 0.5s;
 }
@@ -117,7 +170,7 @@
 /*** Navbar ***/
 .navbar-light .navbar-nav .nav-link {
     margin-right: 25px;
-    padding: 35px 0;
+    padding: 25px 0;
     color: var(--bs-dark) !important;
     font-size: 16px;
     font-weight: 500;
@@ -127,22 +180,22 @@
 }
 
 .sticky-top.navbar-light .navbar-nav .nav-link {
-    padding: 20px 0;
+    padding: 10px 0;
     color: var(--dark) !important;
 }
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
-    color: var(--bs-primary) !important;
+    color: #1FB2AC !important;
 }
 
 .navbar-light .navbar-brand img {
-    max-height: 100px;
+    max-height: 150px;
     transition: .5s;
 }
 
 .sticky-top.navbar-light .navbar-brand img {
-    max-height: 65px;
+    max-height: 70px;
 }
 
 .navbar .dropdown-toggle::after {
@@ -169,7 +222,7 @@
 }
 
 .dropdown .dropdown-menu a:hover {
-    background: var(--bs-primary);
+    background: #1FB2AC;
     color: var(--bs-white);
 }
 
@@ -219,8 +272,8 @@
 
     .navbar.navbar-expand-lg .navbar-toggler {
         padding: 10px 20px;
-        border: 1px solid var(--bs-primary);
-        color: var(--bs-primary);
+        border: 1px solid #1FB2AC;
+        color: #1FB2AC;
     }
 
     .navbar-light .navbar-collapse {
@@ -266,7 +319,7 @@
 .bg-breadcrumb {
     position: relative;
     overflow: hidden;
-    background: linear-gradient(rgba(102, 16, 242, 0.05), rgba(102, 16, 242, 0.05));
+    background: linear-gradient(#e0dddd, #e0dddd);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -283,7 +336,7 @@
     width: 600px;
     height: 600px;
     border-radius: 300px;
-    border: 80px solid rgba(247, 71, 128, 0.05);
+    border: 80px solid #1FB2AC;
     background: transparent;
     animation: RotateMoveSingle 5s linear infinite;
     z-index: -1;
@@ -319,7 +372,7 @@
     width: 600px;
     height: 600px;
     border-radius: 300px;
-    border: 80px solid rgba(247, 71, 128, 0.04);
+    border: 80px solid #1FB2AC;
     background: transparent;
     animation: RotateMoveSingle 5s linear infinite;
     z-index: -1;
@@ -366,7 +419,7 @@
     list-style: none;
     width: 20px;
     height: 20px;
-    background: rgba(102, 16, 242, 0.07);
+    background: #ffffff;
     animation: animate 25s linear infinite;
     bottom: -150px;
     
@@ -556,7 +609,7 @@
     width: 300px;
     height: 300px;
     border-radius: 150px;
-    border: 30px solid rgba(102, 16, 242, 0.05);
+    border: 30px solid #1FB2AC;
     background: transparent;
     animation: RotateMoveSty-4 45s linear infinite;
     transition: 0.5s;
@@ -588,7 +641,7 @@
     width: 50px;
     height: 50px;
     border-radius: 30px;
-    border: 5px solid rgba(247, 71, 128, 0.1);
+    border: 5px solid #1FB2AC;
     background: transparent;
     animation: RotateMoveSty-2 45s linear infinite;
     transition: 0.5s;
@@ -659,7 +712,7 @@
 }
 
 .service .service-item:hover {
-    background: rgba(102, 16, 242, 0.09);
+    background: #c8f5f4;
     border: 1px ;
 }
 
@@ -722,7 +775,7 @@
 .blog .blog-item .blog-img {
     position: relative;
     overflow: hidden;
-    background: rgba(102, 16, 242, 0.2);
+    background: #1FB2AC;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
 }
@@ -734,7 +787,7 @@
     bottom: 0;
     left: 0;
     padding: 20px;
-    background: rgba(102, 16, 242, 0.2);
+    background: #1FB2AC;
     color: var(--bs-white) !important;
     display: flex;
     align-items: end;
@@ -842,8 +895,7 @@ a:-webkit-any-link {
     font-weight: 700;
     padding: 8px 20px;
     margin: 0;
-    background: 
-color-mix(in srgb, var(--accent-color), transparent 90%);
+    background: color-mix(in srgb, var(--accent-color), transparent 90%);
     color: var(--accent-color);
     display: inline-block;
     text-transform: uppercase;
@@ -1118,10 +1170,10 @@ color-mix(in srgb, var(--accent-color), transparent 90%);
   .active-filter-btn{
     background-color: #1FB2AC!important;
     color: #fff!important;
-    border-color: #1FB2AC!important;
+    /* border-color: #fcfcfc!important; */
 }
 .filter-button-group .btn:hover{
-    color:  #1FB2AC!important;
+    color:  #000000!important;
 }
 .collection-img span{
     top: 20px;
@@ -1232,8 +1284,8 @@ button:focus, input:focus, textarea:focus {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: rgba(102, 16, 242, 0.09);
-    color: var(--bs-primary);
+    background: #1FB2AC;
+    color: white;
     transition: 0.5s;
 }
 
@@ -1248,8 +1300,8 @@ button:focus, input:focus, textarea:focus {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: rgba(102, 16, 242, 0.09);
-    color: var(--bs-primary);
+    background: #1FB2AC;
+    color: white;
     transition: 0.5s;
 }
 
@@ -1315,6 +1367,7 @@ button:focus, input:focus, textarea:focus {
     overflow: hidden;
     transition: 0.5s;
     z-index: 1;
+    background-color: none !important;
 }
 
 .contact::after {
@@ -1382,7 +1435,7 @@ button:focus, input:focus, textarea:focus {
 
 .footer .footer-item a:hover {
     letter-spacing: 2px;
-    color: var(--bs-primary);
+    color: #1FB2AC;
 }
 
 /*** Footer End ***/
